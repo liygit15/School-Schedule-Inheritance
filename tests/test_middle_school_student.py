@@ -66,5 +66,5 @@ def test_middle_school_student_summary_without_transportation():
     assert ellis.grade == grade
     assert ellis.classes == classes
     assert len(ellis.classes) == 2
-    assert ellis.gets_transportation   
+    assert not ellis.gets_transportation   
     assert summary == "Ellis is a junior enrolled in 2 classes: Painting, Art\nEllis has no transportation"
